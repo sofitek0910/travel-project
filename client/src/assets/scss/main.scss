@@ -1,0 +1,13 @@
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+@import './custom/common';
+@import './custom/adminNavbar';
+@import './custom/headerNavbar';
+
+@import "./common/button.scss";
+@import "./common/text-style.scss";
+
+@import "./common/navbar.scss";
+@import "./common/common.scss";
+@import "./pages/landing.scss";

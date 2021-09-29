@@ -1,0 +1,7 @@
+{
+    "mongoURI": "mongodb://127.0.0.1:27017/travel-agency",
+    "jwtSecret": "mysecrettoken",
+    "fileUploadPath": "./public/uploads",
+    "userProfileImage": "./public/users",
+    "maxFileSize": 1000000
+}

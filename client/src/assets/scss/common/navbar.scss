@@ -1,0 +1,104 @@
+.navigation-bar {
+    .navbar-sticky {
+        background-color: transparent;
+    }
+    .navbar-nav {
+        .nav-item {
+            position: relative;
+            display: inline-block;
+            margin: 10px 20px;
+            color: #777;
+
+            .nav-link {
+                line-height: 3.5;
+                font-size: 14px;
+                -webkit-transition: all 0.3s ease-in-out 0s;
+                -moz-transition: all 0.3s ease-in-out 0s;
+                -ms-transition: all 0.3s ease-in-out 0s;
+                -o-transition: all 0.3s ease-in-out 0s;
+                transition: all 0.3s ease-in-out 0s;
+                text-transform: uppercase;
+                letter-spacing: 1.5px;
+                padding: 0;
+                color: #333;
+                position: relative;
+                font-weight: 600;
+
+                &:hover, &:active, &:focus {
+                    color: #D60D45;
+                    background: none;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .active {
+            .nav-link {
+                color: #D60D45 !important;
+                background: none;
+                text-decoration: none;
+                &:hover {
+                    color: #555 !important;
+                    background-color: #e7e7e7;
+                }
+            }
+        }
+    }
+}
+
+.language-selection {
+    width: 30px;
+    height: 35px;
+    margin-top: 10px;
+
+    img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .dropdown-toggle {
+        background: transparent !important;
+        border: 0px solid !important;
+        box-shadow: transparent;
+        width: auto;
+
+        &::after {
+            display: none;
+        }
+
+        &:hover, &:active, &:focus { 
+            background: transparent ;
+            border: 0px solid;
+            box-shadow: transparent;
+        }
+    }
+}
+
+.upper-head {
+    background: #005294;
+    padding: 10px 0;
+    font-family: 'Poppins', sans-serif;
+
+    .contact-info {
+        display: inline-block;
+
+        p {
+            margin-bottom: 0;
+            display: inline-block;
+            font-size: 14px;
+            color: #fff;
+            margin-right: 15px;
+            font-weight: 400;
+        }
+    }
+
+    .login-btn {
+        a {
+            color: #fff;
+            font-size: 14px;
+            margin-left: 15px;
+            font-weight: 400;
+            text-decoration: none;
+        }
+    }
+}
